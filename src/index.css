@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+.logo{
+  height: 5rem;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container ul li{
+  list-style-type: none;
+}
+
+.header-container ul li a{
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.home{
+  text-align: center;
+}
+
+.avatar{
+  height: 10rem;
+  margin: 2rem auto;
+}
